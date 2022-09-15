@@ -39,7 +39,7 @@ export const Projects = () => {
       imgUrl: projImg4,
     },
     {
-      title: <a style={{textDecoration: "none", color: "white"}} href="https://admindashboard-jsm.netlify.app/" >Travel Agent</a>,
+      title: <a style={{textDecoration: "none", color: "white"}} href="https://admindashboard-jsm.netlify.app/" >Admin Dashboard</a>,
       description: "Built a dynamic admin dashboard which includes Finacial charts using sync fusion UI and filter by category using React hooks,router and useEffect. Utilized tailwind css for style.",
       imgUrl: projImg5,
     },

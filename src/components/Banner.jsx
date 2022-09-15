@@ -59,18 +59,20 @@ export const Banner = () => {
               <TrackVisibility>
               {({isVisible}) =>
               <div className={isVisible ?  "animate__animated animate__fadeIn" : ""}>
-              <span className="tagline"> Welcome to my Portfolio</span>
+              <span className="tagline"> Welcome to my Dreams</span>
               <h1>
                 {`Hi, i'm AL-Zumar `}
                 <span className="wrap">{text}</span>
               </h1>
               <p>
               I'm based in Charlotte NC;  I specialize in Full stack Web development. HTML, CSS, JavaScript,MERN. 
-               I am very passionate about my career and anime. 
-               Yes, I will ask you what your favorite anime during the process, 
-               if you like anime of course. I also belong to the Great house of Ravenclaw, Want to link up in SWTOR?
-               mention it anytime during the process! 
-               Oh, and btw One Piece is the greatest anime of all time!
+               I am very passionate about coding, i find myself solving problems or thinking about solutions when im working out or driving.
+               i often have thoughts or ideas written down in my phone about app ideas or what next programming language i want to learn.
+               My dream is to build all sorts of cool projects as you can see with my current projects.
+
+               Get in touch with me! So you can find out more about your next Software Engineer!
+
+               
               </p>
               <button onClick={() => console.log('connect') }>Lets Connect <ArrowRightCircle size={25} /> </button>
               </div>}
