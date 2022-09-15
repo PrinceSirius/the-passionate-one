@@ -45,7 +45,7 @@ export const Projects = () => {
     },
     {
       title: "Dream Home Agnecy",
-      description: "Design & Development",
+      description: " an amazing Real Estate Application. With rental homes and for-sale properties, advanced property filtering, property details page with an image carousel, and much more This app utilizes React hooks and routers, NextJS Static generationa and server side rendering and uses Chakra UI for user interfaces.",
       imgUrl: projImg6,
     },
   ];
@@ -90,10 +90,10 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Projects are added Monthly</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Projects are added Monthly</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
