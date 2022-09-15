@@ -48,11 +48,11 @@ import navIcon3 from '../assets/img/nav-icon3.svg';
         </Nav>
         <span className='navbar-text'>
         <div className='social-icon'>
-            <a href="#"> <img src={""} alt=""/> <img src={navIcon} alt="" /> </a>
-            <a href="#"> <img src={""} alt=""/> <img src={navIcon2} alt="" /> </a>
-            <a href="#"> <img src={""} alt=""/> <img src={navIcon3} alt="" />  </a>
+            <a href="https://www.linkedin.com/in/al-zumar-gibson-963890222/"> <img src={""} alt=""/> <img src={navIcon} alt="" /> </a>
+            <a href="https://twitter.com/ALZumarGibson"> <img src={""} alt=""/> <img src={navIcon2} alt="" /> </a>
+            {/* <a href="#"> <img src={""} alt=""/> <img src={navIcon3} alt="" />  </a> */}
         </div>
-        <button className='vvd' onClick={() => console.log("connect")}> <span>Let's connect</span> </button>
+        <button className='vvd' onClick={() => console.log("connect")}>  <a style={{textDecoration: "none"}} href="https://www.linkedin.com/in/al-zumar-gibson-963890222/">Let's connect</a>  </button>
         </span>
       </Navbar.Collapse>
     </Container>

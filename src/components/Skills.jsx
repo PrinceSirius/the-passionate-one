@@ -37,7 +37,9 @@ export const Skills = () => {
                     <Col>
                     <div className="skill-bx">
                         <h2>Skills</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio cupiditate, rerum hic voluptatem ipsum veritatis quis nihil nemo necessitatibus architecto cumque saepe, alias accusamus quasi quidem ducimus asperiores soluta reprehenderit.</p>
+                            <p>As a passionate SE i work hard to upskill my current skills and go deeper with my current knowledge.
+                              I like to know whats the current technology us techies love to use while also sharpening my craft.
+                            </p>
                          <Carousel responsive={responsive} infinite={true} className="skill-slider"> 
                          <div className="item" >
                             <img src={meter1} alt="meter1"/>
